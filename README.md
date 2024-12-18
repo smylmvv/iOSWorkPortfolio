@@ -2,7 +2,7 @@
 
 
 ## Strydal
-[Strydal](https://strydal.com) transforms your enthusiasm for teaching into a successful online enterprise. It empowers coaches to develop courses and memberships, upload video content, and manage live sessions. The iOS application enables users to enroll in courses, participate in live classes, view on-demand videos, engage in discussions with instructors, and more. 
+[Strydal] transforms your enthusiasm for teaching into a successful online enterprise. It empowers coaches to develop courses and memberships, upload video content, and manage live sessions. The iOS application enables users to enroll in courses, participate in live classes, view on-demand videos, engage in discussions with instructors, and more. 
 
 The live conference room was developed utilizing the Twilio SDK, which includes key functionalities such as one-on-one interactions, one-to-many communication, community mode, and a live video player controlled by the instructor. Additionally, it supports Airplay/HDMI and Bluetooth headphones. I served as the only mobile developer for the application.
 
@@ -18,15 +18,13 @@ The live conference room was developed utilizing the Twilio SDK, which includes 
 </p>
 
 ## Buoywatch
-[Buoywatch](https://apps.apple.com/us/app/buoywatch-noaa-surf-buoys/id1479691525) is an iOS & Apple Watch app made using **SwiftUI** and **Combine** as I've been playing around with the latest Apple frameworks since day one after the WWDC.
-It allows you to get real-time marine buoys data and get aware when the surf is good at a glance.
-Too often swell arrives later than predicted, by checking the buoy data you can determine if the swell has arrived. If not, you can go back to bed =)
+[Buoywatch] Buoywatch is an application designed for iOS and Apple Watch, developed using SwiftUI and Combine. Since the launch of the latest Apple frameworks at WWDC, I have been experimenting with these technologies. This app provides real-time data from marine buoys, enabling users to quickly assess surf conditions. Frequently, swells do not arrive as forecasted; by monitoring buoy data, users can ascertain whether the swell has indeed reached the area.
 
 ##### 🔨Technologies: SwiftUI, Combine, MVVM, Bitrise, Notifications, No third party libraries.
 ##### 🚀Platform: 📱iOS, ⌚️watchOS
-<p align="center">
-<a href="https://apps.apple.com/us/app/buoywatch-noaa-surf-buoys/id1479691525" target="_blank"><img src="images/buoywatch/buoywatch.png" width="900" title="Buoywatch"></a>
-</p>
+
+![buoywatch](https://github.com/user-attachments/assets/99ce4ffb-8eb6-41af-8a9d-6a79d5dbe922)
+
 
 ## GlucoNightWatch
 [GlucoNigthWatch](https://gluconightwatch.com/) is an app that provides customizable alarm and remote monitoring for GNSentry device users. People with diabetes and their relatives can benefit from the customizable alarm system provided by the app when used with GNSentry and Free Freestyle. The GNSentry bracelet sends a measure of the Freestyle every 5 minutes via Bluetooth to the app, then it triggers the alarms when necessary.
