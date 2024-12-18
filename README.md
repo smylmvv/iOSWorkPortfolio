@@ -9,7 +9,7 @@ The live conference room was developed utilizing the Twilio SDK, which includes 
 ##### 🔨Technologies: SwiftUI, MVVM + Clean Architecture, UI + Unit Tests, CI, Twilio SDK, StreamChat API, Push Notifications, AWS SDK, REST API (GraphQL on an early MVP).
 ##### 🚀Platform: 📱iOS, iPad.
 
-![strydal](https://github.com/user-attachments/assets/818ebb4f-ff3b-4ef6-8fe6-dd03f909f117 (https://www.mediafire.com/view/ghldvm7vulbb5l1/strydal.png/file)
+![strydal](https://github.com/user-attachments/assets/59af7dfe-a6b3-46f7-a434-e9bb91e6e37b)
 
 <p align="center">
 
