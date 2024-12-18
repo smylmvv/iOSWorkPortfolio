@@ -11,7 +11,7 @@ The live conference room was developed utilizing the Twilio SDK, which includes 
 
 <p align="center">
 
-  <img src="[https://www.mediafire.com/file/ghldvm7vulbb5l1/strydal.png/file"](https://www.mediafire.com/view/ghldvm7vulbb5l1/strydal.png/file)">
+<img src="data:image/png;base64,{your_base64_content}" /> 
   
 </p>
 
