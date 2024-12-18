@@ -2,7 +2,7 @@
 
 
 ## Strydal
-[Strydal] transforms your enthusiasm for teaching into a successful online enterprise. It empowers coaches to develop courses and memberships, upload video content, and manage live sessions. The iOS application enables users to enroll in courses, participate in live classes, view on-demand videos, engage in discussions with instructors, and more. 
+Strydal transforms your enthusiasm for teaching into a successful online enterprise. It empowers coaches to develop courses and memberships, upload video content, and manage live sessions. The iOS application enables users to enroll in courses, participate in live classes, view on-demand videos, engage in discussions with instructors, and more. 
 
 The live conference room was developed utilizing the Twilio SDK, which includes key functionalities such as one-on-one interactions, one-to-many communication, community mode, and a live video player controlled by the instructor. Additionally, it supports Airplay/HDMI and Bluetooth headphones. I served as the only mobile developer for the application.
 
@@ -18,7 +18,7 @@ The live conference room was developed utilizing the Twilio SDK, which includes 
 </p>
 
 ## Buoywatch
-[Buoywatch] Buoywatch is an application designed for iOS and Apple Watch, developed using SwiftUI and Combine. Since the launch of the latest Apple frameworks at WWDC, I have been experimenting with these technologies. This app provides real-time data from marine buoys, enabling users to quickly assess surf conditions. Frequently, swells do not arrive as forecasted; by monitoring buoy data, users can ascertain whether the swell has indeed reached the area.
+Buoywatch is an application designed for iOS and Apple Watch, developed using SwiftUI and Combine. Since the launch of the latest Apple frameworks at WWDC, I have been experimenting with these technologies. This app provides real-time data from marine buoys, enabling users to quickly assess surf conditions. Frequently, swells do not arrive as forecasted; by monitoring buoy data, users can ascertain whether the swell has indeed reached the area.
 
 ##### 🔨Technologies: SwiftUI, Combine, MVVM, Bitrise, Notifications, No third party libraries.
 ##### 🚀Platform: 📱iOS, ⌚️watchOS
@@ -27,28 +27,32 @@ The live conference room was developed utilizing the Twilio SDK, which includes 
 
 
 ## GlucoNightWatch
-[GlucoNigthWatch](https://gluconightwatch.com/) is an app that provides customizable alarm and remote monitoring for GNSentry device users. People with diabetes and their relatives can benefit from the customizable alarm system provided by the app when used with GNSentry and Free Freestyle. The GNSentry bracelet sends a measure of the Freestyle every 5 minutes via Bluetooth to the app, then it triggers the alarms when necessary.
+GlucoNightWatch is an application designed to offer customizable alarms and remote monitoring for users of the GNSentry device. Individuals with diabetes, along with their family members, can take advantage of the app's tailored alarm system when paired with GNSentry and Free Freestyle. The GNSentry bracelet transmits readings from the Freestyle every five minutes via Bluetooth to the app, which subsequently activates alarms as needed.
 
 ##### 🔨Technologies: Swift, Realm, Core Bluetooth, Charts, Push Notifications.
 ##### 🚀Platform: 📱iOS
-<p align="center">
-<a href="https://gluconightwatch.com/" target="_blank"><img src="images/gnw/gnw.png" width="900" title="GlucoNightWatch"></a>
-</p>
+
+![gnw](https://github.com/user-attachments/assets/aa6d6d79-71fb-44d3-a8ea-10ddcc534ebf)
+
 
 ## MyBestPhotobook
-[MyBestPhotobook](https://apps.apple.com/us/app/photobook-app-mybestphotobook/id1402582617) allows you to crete and mail printed photo books easily in less than five minutes. Simply upload your photos to the app, edit and organize the layout however you like best. The most remarkable feature was an all-in-one photo picker which allows the user to import pictures from the device as well as from Instagram, Facebook, Dropbox, Google Photos and Google Drive. The picker was also implemented in [MyPostcard](#MyPostcard) app later on. Built on 2018/2019.
+MyBestPhotobook enables users to effortlessly create and send printed photo books in under five minutes. Users can upload their images to the application, customize, and arrange the layout to their preference. A standout feature is the comprehensive photo picker, which facilitates the import of images from various sources, including the device itself, Instagram, Facebook, Dropbox, Google Photos, and Google Drive. This photo picker was subsequently integrated into the MyPostcard app as well.
 
 ##### 🔨Technologies: Swift, Realm, PhotoEditor SDK, Clean Architecture.
 ##### 🚀Platform: 📱iOS
-<p align="center">
-<a href="https://apps.apple.com/us/app/photobook-app-mybestphotobook/id1402582617" target="_blank"><img src="images/myBestPhotobook/myBestPhotobook.png" width="900" title="MyBestPhotobook"></a>
-</p>
+
+![myBestPhotobook](https://github.com/user-attachments/assets/deabd645-31ca-4228-b9a8-d866da3b0255)
+
 
 ## MyPostcard
-[MyPostcard](https://apps.apple.com/us/app/mypostcard-postcard-app/id858686797) lets you create, personalise and send printed photo postcards and greeting cards worldwide from your iPhone or iPad. It has a total of more than 1 million downloads and 4,000 5-star ratings. I've mostly worked on updating the Objective-C codebase, bug fixes and adding new features. Worked on it during 2018/2019.
+MyPostcard enables users to design, customize, and dispatch printed photo postcards and greeting cards globally using their iPhone or iPad. The application has achieved over 1 million downloads and boasts 4,000 five-star ratings. My primary focus has been on enhancing the Objective-C codebase, addressing bugs, and incorporating new features.
 
 ##### 🔨Technologies: Objective-C, Swift, PhotoEditor SDK.
 ##### 🚀Platform: 📱iOS, iPad.
+
+<img width="971" alt="Screen Shot 2024-12-17 at 19 02 07" src="https://github.com/user-attachments/assets/80d454af-43b4-43f3-a94e-3c8a6f3cca52" />
+
+<img width="955" alt="Screen Shot 2024-12-17 at 19 02 11" src="https://github.com/user-attachments/assets/fb4486e9-fd46-45a5-92c2-b18bcd27997f" />
 
 ## SUPERKORB
 [SUPERKORB](https://web.archive.org/web/20190714151041/https://superkorb.com/) is a smart shopping platform for fast-moving consumer goods. The app compares your basket with all major vendors and finds the best-priced offer. Check-out and payment are conveniently handled within the app. It combines major online shops to offer over 100.000 articles. Worked on it in 2018.
@@ -60,75 +64,70 @@ The live conference room was developed utilizing the Twilio SDK, which includes 
 </p>
 
 ## Bus Dich Weg
-[Bus Dich Weg](https://apps.apple.com/ca/app/bus-dich-weg/id1315973814) lets users connect their devices to an internal wi-fi network available on tourist buses. As soon as the user is connected to the wi-fi system, he will be able to start listening to the tourist guide's speech. The major chanllenge was to research, test, compile and calibrate an audio library that supported **rtsp** for iOS and make it work with the less latency as possible. Also, we had to simulate the straming device with a **Raspberry-pi** as we didn't have access to the customer's bus device. It was built in 2017/2018.
+Bus Far Away (Bus Dich Weg in German) enables users to link their devices to an internal Wi-Fi network provided on tourist buses. Once connected to the Wi-Fi system, users can begin listening to the commentary from the tour guide. A significant challenge involved researching, testing, compiling, and calibrating an audio library compatible with RTSP for iOS, ensuring minimal latency. Additionally, we needed to emulate the streaming device using a Raspberry Pi, as we lacked access to the customer's bus equipment.
 
 ##### 🔨Technologies: Swift, AVC Player, iBeacons, Push Notifications.
 ##### 🚀Platform: 📱iOS
-<p align="center">
-<a href="https://apps.apple.com/ca/app/bus-dich-weg/id1315973814" target="_blank"><img src="images/bdw/bdw.png" width="900" title="SUPERKORB"></a>
-</p>
+
+![bdw](https://github.com/user-attachments/assets/a809541c-93e4-427a-9b43-db53e42e35b3)
 
 ## SPENN
-[SPENN](https://apps.apple.com/us/app/spenn/id1189735564?ls=1) is a cryptocurrency wallet app which allows a user to conduct transactions such as money transfers and receive payments. It uses blockchain under the hood to secure transactions. It also brings the users the possibility to create a business and get paid directly to their phone. Really cool project, I've loved working on it. We were 2 iOS Developers. We've used Flow Coordinators pattern for the architecture of the app. Built in 2016.
+SPENN is a cryptocurrency wallet application that enables users to perform transactions, including money transfers and payment receipts. It leverages blockchain technology to ensure transaction security. Additionally, it offers users the opportunity to establish a business and receive payments directly on their mobile devices. This project has been highly engaging, and I have thoroughly enjoyed my involvement. Our team consisted of two iOS developers, and we implemented the Flow Coordinators pattern for the app's architecture.
 
 ##### 🔨Technologies: Swift, Flow Coordinators.
 ##### 🚀Platform: 📱iOS
-<p align="center">
-<a href="https://apps.apple.com/us/app/spenn/id1189735564?ls=1" target="_blank"><img src="images/spenn/spenn.png" width="900" title="SPENN"></a>
-</p>
+
+![spenn](https://github.com/user-attachments/assets/48bf98eb-cd49-4904-98b1-efabb92b339f)
 
 ## TravelKit - Mobile Traveller
-[TravelKit](https://apps.apple.com/fr/app/travelkit-for-mobile-traveller/id1146520530) geolocates travellers and sends safety, security and travel-related alerts specific to their location. It aslo make calls to an emergency hotline from within the app. Built in 2016.
+TravelKit utilizes geolocation technology to provide travelers with safety, security, and travel-related alerts tailored to their specific location. Additionally, it enables users to contact an emergency hotline directly through the app. The application was developed in 2016.
 
 ##### 🔨Technologies: Swift, Flow Coordinators, Push Notifications.
 ##### 🚀Platform: 📱iOS
-<p align="center">
-<a href="https://apps.apple.com/fr/app/travelkit-for-mobile-traveller/id1146520530" target="_blank"><img src="images/travelKit/travelKit.png" width="900" title="TravelKit"></a>
-</p>
+
+![travelKit](https://github.com/user-attachments/assets/1b454cdd-807e-4e19-9c00-7cdd20eab6c4)
+
+
+## Marina & the Light
+'Marina & the light' ('Marina & la luz' in Spanish) presents a visual narrative that gains fresh dimensions with each reading, enhanced by interactive elements that allow the reader to become a co-creator of the story. The central character, Marina, is a young girl who, inspired by the enchanting power of light, embarks on extraordinary adventures alongside fantastical beings. The illustrations play a significant role, while the accompanying music adds depth, highlighting the protagonist's emotions and enriching the evocative nature of the scenes. This reading experience encourages the reader's imagination and creativity.
+
+##### 🔨Technologies: Swift, Flow Coordinators.
+##### 🚀Platform: 📱iPad
+
+<img width="828" alt="Screen Shot 2024-12-17 at 19 06 03" src="https://github.com/user-attachments/assets/ea9f5fe8-69bc-4c0a-a825-20b5dcbbb4c1" />
+
 
 ## IATA - Economics
-[IATA - Economics](https://apps.apple.com/us/app/iata-economics/id1111567152) brings access to industry-leading economic analysis on key aviation issues and market trends. In-depth research, reports, charts, presentations, videos and more. It allows the user to receive personalized notifications when new content is available. I've mostly worked on addapting the already built iPad app to the iOS version and on adding new features to both iOS and iPad versions. I worked on it in 2016.
+'Marina & the light' ('Marina & la luz' in Spanish) presents a visual narrative that gains fresh dimensions with each reading, enhanced by interactive elements that allow the reader to become a co-creator of the story. The central character, Marina, is a young girl who, inspired by the enchanting power of light, embarks on extraordinary adventures alongside fantastical beings. The illustrations play a significant role, while the accompanying music adds depth, highlighting the protagonist's emotions and enriching the evocative nature of the scenes. This reading experience encourages the reader's imagination and creativity.
 
 ##### 🔨Technologies: Swift, Push Notifications.
 ##### 🚀Platform: 📱iOS, iPad.
-<p align="center">
-<a href="https://apps.apple.com/us/app/iata-economics/id1111567152" target="_blank"><img src="images/iata/iata.png" width="900" title="IATA"></a>
-</p>
+
+![iata](https://github.com/user-attachments/assets/ae43ee29-53f0-406c-adef-1a3f297dda66)
+
 
 ## Swappy Books
-[Swappy Books](https://apps.apple.com/us/app/swappy-books/id1198626384) lets you swap paper books with people nearby. It's a social network that uses **CloudKit ID** under the hood to keep track of user's published books without the need of requiring login/register process. 
-It was developed in 2017. It uses [Swiping Carousel](https://github.com/PPacie/SwipingCarousel), an open source library developed by me, to present the available books.
+Swappy Books facilitates the exchange of physical books among local users. This social networking platform employs CloudKit ID to monitor users' published books, eliminating the necessity for a login or registration process. Established in 2017, it utilizes the Swiping Carousel, an open-source library created by the developer, to showcase the books available for swapping.
 
 ##### 🔨Technologies: Swift, CloudKit, Push Notifications, Chat.
 ##### 🚀Platform: 📱iOS
-<p align="center">
-<a href="https://apps.apple.com/us/app/swappy-books/id1198626384" target="_blank"><img src="images/swappyBooks/swappyBooks.png" width="900" title="Swappy Books"></a>
-</p>
+
+![swappyBooks](https://github.com/user-attachments/assets/051eaf24-0650-476b-9490-144d57ecf109)
+
 
 ## Tracing Board
-[Tracing Board](https://apps.apple.com/us/app/tracing-board/id1040566627) converts your iPad into an on-the-go light box. This is a tool for those of us who draw daily and sometimes need to re-draw sketches until we are pleased with the results.
-This was my first independent Swift app. It uses **Core Data** as persistency management. It was developed in 2015.
+Big Mac Index is represented my inaugural iOS application released on the App Store, designed to assess whether currencies are valued appropriately. This index was created by The Economist in 1986. The primary objective behind the development of this app was to apply the knowledge I acquired from various online courses and literature. The app was developed during the years 2013 and 2014 utilizing Objective-C.
 
 ##### 🔨Technologies: Swift, Core Data, Core Image.
 ##### 🚀Platform: iPad
-<p align="center">
-<a href="https://apps.apple.com/us/app/tracing-board/id1040566627" target="_blank"><img src="images/tracingBoard/tracingBoard.jpg" width="900" title="Tracing Board"></a>
-</p>
 
-## Surfate
-It was a live streaming surf cams app. It got more than 230 surf spot webcams from al around the world. 
-It was developed in 2014/2015. It allowed the user to get a realtime picture of a selected surf spot on the **Notifications Widget**. It got discontinued due to copyright issues with the API providers.
+![tracingBoard](https://github.com/user-attachments/assets/9be267fa-1cf0-40f2-aab1-85297abd8402)
 
-##### 🔨Technologies: Objective-C, WatchKit, App Extensions, AVPlayer.
-##### 🚀Platform: 📱iOS, ⌚️watchOS, iPad
-<p align="center">
-<a href="https://web.archive.org/web/20160304181919/http://surfate.com/" target="_blank"><img src="images/surfate/surfate.png" width="900" title="Surfate"></a>
-</p>
 
 ## Big Mac Index
-[Big Mac Index](https://apps.apple.com/us/app/big-mac-index-app/id908062605) was my first iOS app published on the AppStore. It intends to show whether currencies are at their *"correct"* value. This index was invented by The Economist in 1986. The main purpose of developing this app was to put in practice everything I've been learning on online courses, books, etc. It was developed in 2013/2014 using **Objective-C**.
+Big Mac Index is represented my inaugural iOS application released on the App Store, designed to assess whether currencies are valued appropriately. This index was created by The Economist in 1986. The primary objective behind the development of this app was to apply the knowledge I acquired from various online courses and literature. The app was developed during the years 2013 and 2014 utilizing Objective-C.
 
 ##### 🚀Platform: 📱iOS
-<p align="center">
-<a href="https://apps.apple.com/us/app/big-mac-index-app/id908062605" target="_blank"><img src="images/bigMacIndex/bigMacIndex.png" width="900" title="Big Mac Index"></a>
-</p>
+
+![bigMacIndex](https://github.com/user-attachments/assets/1360e39b-613b-46ce-8482-2a1e3483ed3a)
+
